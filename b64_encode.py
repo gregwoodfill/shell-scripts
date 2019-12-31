@@ -3,7 +3,7 @@ import sys
 
 
 def base64Encode(text):
-     '''encode utf-8 input to base 64'''
+    '''encode utf-8 input to base 64'''
     return base64.standard_b64encode(bytes(text, 'utf-8')).decode('utf-8')
 
 
